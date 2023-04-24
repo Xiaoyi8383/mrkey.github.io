@@ -6,34 +6,33 @@
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 
-| Rank | THING-TO-RANK |
-|-----:|---------------|
-|     1|               |
-|     2|               |
-|     3|               |
-
 My Blog
 
 Blog是写在这里吗？
 这玩意儿有模版可以套用吗？
 
-我的需求：
+<details>
+<summary>我的需求：</summary>
 使用OpenAI的模型，和公司业务数据，训练一个智能聊天机器人或搭建智能数据库；
 能够根据输入的条件给出专业的回答
 能够根据输入的条件自动生成简单的技术方案
+</details>
 
+<details>
+<summary>过程</summary>
 注册OpenAI账户成功，但因为没有靠谱的支付渠道，没有upgrade
 Twitter上了解到可以在Azure上部署，支持国内付费，且费率一致；我认为这是一个稳定干净的渠道。无论我以后想实现哪些应用，都可以通过这个途径使用OpenAI的API和ChatGPT4
 使用国内银行发行的Visa卡注册Azure，使用个人微软账户登陆;开通了即用即付。
 Azure上申请OpenAI Service，要求公司信息，如实填写。
 等待审核通过，接入ChatGPT4
-收到了一个邮件：
-> “Hi 小易,  
-> Thank you for your application to access Microsoft Azure Cognitive Services!  
-> Good news! Your application has passed initial gating criteria. We just need some additional information from you in order to verify your eligibility, specifically regarding your company’s web domain. After we get you verified, we'll be able to move forward to completing your application.  
+<details>
+<summary>收到了一个邮件：</summary>
+ > “Hi 小易,  
+ > Thank you for your application to access Microsoft Azure Cognitive Services!  
+ > Good news! Your application has passed initial gating criteria. We just need some additional information from you in order to verify your eligibility, specifically regarding your company’s web domain. After we get you verified, we'll be able to move forward to completing your application.  
 > There are two ways that you can verify your company's domain. Please reply back to this email with either screenshots of your Partner Center profile or attach your domain invoice.  
 > **Option 1**  
-> Create a [Partner Center](https://partner.microsoft.com/en-us/dashboard/home) profile, in which the details provided in your application need to match the details in your organization’s Partner Center profile (not exclusive to Microsoft Partners). Click [HERE](https://docs.microsoft.com/en-us/partner-center/update-your-partner-profile) for step-by-step directions on how to set up your company's profile.  
+> Create a [Partner Center]profile, in which the details provided in your application need to match the details in your organization’s Partner Center profile (not exclusive to Microsoft Partners). Click [HERE] for step-by-step directions on how to set up your company's profile.  
 > Some common reasons for why you received a Domain Failure:  
 > - different domains for web and email  
 > - different domains for subsidiaries  
@@ -45,6 +44,7 @@ Azure上申请OpenAI Service，要求公司信息，如实填写。
 > -  Address  
 > -  Domain  
 > *Please send your document as either a screenshot or a .pdf file under 8MB*”
+</details>
 
 😭没能正确理解邮件意思，误以为是要求证明我提交的公司邮箱确实属于一家真实存在的公司，所以提供了公司网站的域名证书或公司邮箱的证明材料，没有等到回信。
 又看了一遍邮件，还是没能正确理解PartnerCenter是什么，回复了错误的截图
@@ -53,6 +53,7 @@ Azure上申请OpenAI Service，要求公司信息，如实填写。
 再次提交了Azur OpenAI服务申请；公司信息均如实填写
 公司邮箱第二天收到了邮件，与第一次内容完全一致
 再次回复了账户信息概述截图
+</details>
 
 另外：
 ¥20买了一个美区Apple ID
